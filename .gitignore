@@ -1,0 +1,33 @@
+# Build output
+build/
+out/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+install_manifest.txt
+_deps/
+
+# Compilation database (generated per-preset)
+compile_commands.json
+
+# Test artifacts
+Testing/
+CTestTestfile.cmake
+*.log
+
+# Profiling
+*.trace/
+*.dSYM/
+
+# Editors
+.vscode/
+.idea/
+.cache/
+*.swp
+
+# macOS
+.DS_Store
